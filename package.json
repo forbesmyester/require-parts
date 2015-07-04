@@ -1,0 +1,22 @@
+{
+  "name": "require-parts",
+  "version": "0.9.9",
+  "description": "Minimize webpack / browserify compile time size / time in development by using selective `require`",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js && eslint test/index.js && mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forbesmyester/require-parts.git"
+  },
+  "author": "Matthew Forrester <github.com@speechmarks.com>",
+  "license": "MIT",
+  "dependencies": { },
+  "devDependencies": {
+    "eslint": "^0.21.2",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.5",
+    "ramda": "^0.15.1"
+  }
+}
