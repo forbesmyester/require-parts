@@ -23,4 +23,4 @@ so I created [this micro library](https://github.com/forbesmyester/require-parts
     var requireParts = require('require-parts');
     var R = requireParts('ramda', 'src', ['zipObj.js', 'min.js']);
 
-This works for modules installed with NPM in Node, doesn't seem to work with Babel, which is a shame... will have to make a Babel plugin for optimization...
+This works for modules installed with NPM in Node, doesn't seem to work with Babel, but there is a [Babel Plugin](https://github.com/forbesmyester/require-parts-babel) which does the same job
